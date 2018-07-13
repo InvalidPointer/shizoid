@@ -1,6 +1,6 @@
 module.exports.config = {
-    token: '296642431:AAHxNkgJyWEXK8qS94BQ-OnTWv4dKxRwytg',
-    myId: 296642431, // before : in token
+    token: '646214175:AAFHoHLKSvR0A39WGHKsO1cw4gqr3CE-ci0',
+    myId: 646214175, // before : in token
     punctuation: {
         endSentence: '.!?',
         all: '.!?;:,'
@@ -14,5 +14,5 @@ module.exports.config = {
         port: 5432,
         logging: false
     },
-    debug: false
+    debug: true
 };

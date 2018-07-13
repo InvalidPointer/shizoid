@@ -61,7 +61,7 @@ message.prototype.process = async function () {
     }
 
     if (this.has_text()) {
-        if (Math.abs(this.message.date - Math.floor(Date.now() / 1000)) > 20) {
+        if (!this.message.learn && Math.abs(this.message.date - Math.floor(Date.now() / 1000)) > 20) {
             return;
         }
         await models.Pair.learn(this);
